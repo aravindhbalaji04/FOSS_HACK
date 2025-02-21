@@ -7,6 +7,10 @@ module.exports = {
             fontFamily: {
                 cursive: ['Roboto', 'sans-serif'],
             },
+            "compilerOptions": {
+                "esModuleInterop": true,
+                "jsx": "react-jsx"
+            },
         },
     },
     plugins: [],
